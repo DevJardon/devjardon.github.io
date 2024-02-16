@@ -13,7 +13,7 @@
   background-color: #e06c4e;
   align-items: center;
   height: 100vh;
-  display: flex;
+  display: grid;
 }
 .center {
   place-self: center;
