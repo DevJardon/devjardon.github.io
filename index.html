@@ -1,60 +1,71 @@
 <!DOCTYPE html>
-<home>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial scale=1">
-        <title>Rebb Robles' Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-        rel="stylesheet"/>
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>Novie :D</title>
 
-        <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">       
-        
-    </head>
-    <body>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
 
-        <header>
-            <a href="#" class="logo">
-                DevJardon
-            </a>
-            <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contacts</a></li>
-            </ul>
-            <div class="bx bx-menu", id="menu-icon"></div>
-        </header>
-
-        <section class="home" id="home">
-            <div class="home-text">
-                <h4>Hello, I'm Rebb.</h4>
-                <h1>Full Stack <br> Developer </h1>
-                <div class="Socials">
-                    <a href="#">Follow me on</a>
-                    <a href="#"><i class="ri-github-fill"></i></a>
-                    <a href="#"><i class="ri-twitter-x-fill"></i></a>
-                    <a href="#"><i class="ri-linkedin-fill"></i></a>                     
+<body>
+ <div class="intro">
+    <div class="center">
+        <h1 class="title"> Hi baby!</h1>
+        <h2 class="title2">Scroll Down.</h2>
+    </div>
+ </div>
+ <div class="body">
+    <h1 class="Valentines">Happy Valentines!</h1>
+        <div class="container">
+            <div class="left">
+                <div class ="left">
+                        <img src="Image1.jpg" alt="Me and Novie" class="first">
+                        <img src="Image4.jpg" alt="Me and Novie" class="second">
+                        <img src="Image3.jpg" alt="Me and Novie" class="third">
+                    </div>
                 </div>
-                
-                <div class="button">
-                    <a href="#"><i class="ri-mail-open-line">Mail Me</i></a>
-                    <a href="#" class="btn2"><i class="ri-arrow-down-line">Download CV</i></a>
-                </div>
+            <div class="right"><h3>My pretty girl Novie,</h3>
+                <br> I know that this message might be coming a bit late, considering Valentine's Day has already passed, but it's still the month of love and I want to take a moment to express my feelings for you during this beautiful month.  want you to understand just how much I love and adore you. Your presence makes me feel elated and content. The way you look at me makes me feel as if I'm the most handsome man in the world. I cherish everything about you, your smile, your laughter, your pretty face and the wonderful person that you are. You truly are amazing Novie, I love you.
             </div>
-                <div class="home-img">
-                    <img src="Images/Rebb.jpg">
-                </div>
+        </div>
+    </h3>
+ </div>
+<div class="secondbody">
+    <div class="valentines-day-card">
+        <input id="open" type="checkbox">
+        <label class="open" for="open"></label>
+      <div class="card-front">
+        <div class="note"><br>Click to <br>Open</div>
+      </div>
+        
+        <div class="card-inside">
+          <div class="text-one">Happy
+          </div>
+          <div class="heart"></div>
+          <div class="smile"></div>
+          <div class="eyes"></div>
+      </div>
+      </div>
+</div>
+<div class="end">
+    <div class="center">
+        <img src="ponyo.gif">
+        <h2>I hope you liked it baby</h2>    
+    </div>
+</div>
+</body>
 
-        </section>
+ <script>
+    ScrollReveal({ reset: true });
+    ScrollReveal().reveal('.title', { reset: false, origin: 'top', distance: '60px'})
+    ScrollReveal().reveal('.title2', { delay: 800, reset: false, origin: 'top', distance: '60px'});
+    ScrollReveal().reveal('.Valentines', { delay: 300, reset: false, origin: 'left', distance: '60px'});
+    ScrollReveal().reveal('.first', { delay: 300, reset: true, origin: 'left', distance: '60px', duration: 900},);
+    ScrollReveal().reveal('.second', { delay: 600, reset: true, origin: 'left', distance: '60px', duration: 900});
+    ScrollReveal().reveal('.third', { delay: 900, reset: true, origin: 'left', distance: '60px', duration: 900});
+    ScrollReveal().reveal('.right', { delay: 1000, reset: true, origin: 'right', distance: '10px', duration: 1250});
+
+ </script>
 
 
-
-        <script src="js/script.js"></script>
-
-    </body>
-</home>
+</html>
